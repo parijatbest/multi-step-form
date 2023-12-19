@@ -17,6 +17,14 @@ nextBtns.forEach((btn) => {
     updateProgressbar();
   });
 });
+// ToDo remove unwanted code
+// nextBtns.forEach((btn) => {
+//   btn.addEventListener("click", () => {
+//     formStepsNum++;
+//     updateFormSteps();
+//     updateProgressbar();
+//   });
+// });
 
 prevBtns.forEach((btn) => {
   btn.addEventListener("click", () => {
