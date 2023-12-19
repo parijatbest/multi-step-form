@@ -4,6 +4,8 @@ const progress = document.getElementById("progress");
 const formSteps = document.querySelectorAll(".form-step");
 const progressSteps = document.querySelectorAll(".progress-step");
 
+console.log('Hello from Parijat');
+
 let formStepsNum = 0;
 
 nextBtns.forEach((btn) => {
