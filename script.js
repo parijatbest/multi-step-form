@@ -6,6 +6,8 @@ const progressSteps = document.querySelectorAll(".progress-step");
 
 console.log('Hello from Parijat');
 
+const unusedVar;
+
 let formStepsNum = 0;
 
 nextBtns.forEach((btn) => {
