@@ -4,6 +4,10 @@ const progress = document.getElementById("progress");
 const formSteps = document.querySelectorAll(".form-step");
 const progressSteps = document.querySelectorAll(".progress-step");
 
+console.log('Hello from Parijat');
+
+const unusedVar;
+
 let formStepsNum = 0;
 
 nextBtns.forEach((btn) => {
@@ -13,6 +17,14 @@ nextBtns.forEach((btn) => {
     updateProgressbar();
   });
 });
+// ToDo remove unwanted code
+// nextBtns.forEach((btn) => {
+//   btn.addEventListener("click", () => {
+//     formStepsNum++;
+//     updateFormSteps();
+//     updateProgressbar();
+//   });
+// });
 
 prevBtns.forEach((btn) => {
   btn.addEventListener("click", () => {
